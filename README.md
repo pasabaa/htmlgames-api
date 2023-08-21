@@ -6,9 +6,9 @@ Esta documentación proporciona una descripción general de los puntos finales y
 
 [https://games-html-api.fly.dev/](https://games-html-api.fly.dev/)
 
-## Puntos finales
+ ## Puntos finales
 
-### 1\. ad-free
+### 1. ad-free
 
 Obtener una lista de juegos sin anuncios.
 
@@ -20,19 +20,20 @@ Obtener una lista de juegos sin anuncios.
 
 `GET https://games-html-api.fly.dev/api/ad-free?page=1`
 
-#### Respuesta
+ #### Respuesta
 
-1. `{`
-2.  `"pagination": [`
-3.  `{`
-4.  `"currentPage": "1",`
-5.  `"totalPages": "20"`
-6.  `}`
-7.  `],`
-8.  `"results": [`
-9.  `// Lista de objetos de juegos con detalles`
-10.  `]`
-11. `}`
+``json
+{
+  "pagination": [
+    {
+      "currentPage": "1",
+      "totalPages": "20"
+    }
+  ],
+  "results": [
+    // Lista de objetos de juegos con detalles
+  ]
+}``
 
 ### 2\. details
 
@@ -48,13 +49,14 @@ Obtener detalles de un juego específico por su ID.
 
 #### Respuesta
 
-1. `[`
-2.  `{`
-3.  `"title": "Zombies in city lights",`
-4.  `"developer": "Denny74",`
-5.  `"embed_url": "https://idev.games/embed/zombies-in-city-lights"`
-6.  `}`
-7. `]`
+``json
+[
+  {
+    "title": "Zombies in city lights",
+    "developer": "Denny74",
+    "embed_url": "https://idev.games/embed/zombies-in-city-lights"
+  }
+]``
 
 ### 3\. most-played
 
@@ -66,21 +68,22 @@ Obtener una lista de los juegos más jugados.
 
 #### Ejemplo de solicitud
 
-`GET https://games-html-api.fly.dev/api/most-played?page=1`
+`GET https://games-html-api.fly.dev/api/most-played?page=1` 
 
 #### Respuesta
 
-1. `{`
-2.  `"pagination": [`
-3.  `{`
-4.  `"currentPage": "1",`
-5.  `"totalPages": "20"`
-6.  `}`
-7.  `],`
-8.  `"results": [`
-9.  `// Lista de objetos de juegos con detalles`
-10.  `]`
-11. `}`
+``json
+{
+  "pagination": [
+    {
+      "currentPage": "1",
+      "totalPages": "20"
+    }
+  ],
+  "results": [
+    // Lista de objetos de juegos con detalles
+  ]
+}``
 
 ### 4\. newest
 
@@ -92,21 +95,22 @@ Obtener una lista de los juegos más nuevos.
 
 #### Ejemplo de solicitud
 
-`GET https://games-html-api.fly.dev/api/newest?page=1`
+`GET https://games-html-api.fly.dev/api/newest?page=1` 
 
 #### Respuesta
 
-1. `{`
-2.  `"pagination": [`
-3.  `{`
-4.  `"currentPage": "1",`
-5.  `"totalPages": "20"`
-6.  `}`
-7.  `],`
-8.  `"results": [`
-9.  `// Lista de objetos de juegos con detalles`
-10.  `]`
-11. `}`
+``json
+{
+  "pagination": [
+    {
+      "currentPage": "1",
+      "totalPages": "20"
+    }
+  ],
+  "results": [
+    // Lista de objetos de juegos con detalles
+  ]
+}``
 
 ### 5\. recent-updated
 
@@ -118,18 +122,19 @@ Obtener una lista de los juegos actualizados recientemente.
 
 #### Ejemplo de solicitud
 
-`GET https://games-html-api.fly.dev/api/recent-updated?page=1`
+`GET https://games-html-api.fly.dev/api/recent-updated?page=1` 
 
 #### Respuesta
 
-1. `{`
-2.  `"pagination": [`
-3.  `{`
-4.  `"currentPage": "1",`
-5.  `"totalPages": "20"`
-6.  `}`
-7.  `],`
-8.  `"results": [`
-9.  `// Lista de objetos de juegos con detalles`
-10.  `]`
-11. `}`
+``json
+{
+  "pagination": [
+    {
+      "currentPage": "1",
+      "totalPages": "20"
+    }
+  ],
+  "results": [
+    // Lista de objetos de juegos con detalles
+  ]
+}``
