@@ -14,7 +14,7 @@ Obtener una lista de juegos sin anuncios.
 
 - **URL:** `/api/ad-free`
 - **Método:** GET
-- **Parámetros:** `page` (entero, obligatorio) - Número de página para la paginación.
+- **Parámetros:** `page` (entero, requerido) - Número de página para la paginación.
 
 #### Ejemplo de solicitud
 
@@ -66,7 +66,7 @@ Obtener una lista de los juegos más jugados.
 
 - **URL:** `/api/most-played`
 - **Método:** GET
-- **Parámetros:** `page` (entero, obligatorio) - Número de página para la paginación.
+- **Parámetros:** `page` (entero, requerido) - Número de página para la paginación.
 
 #### Ejemplo de solicitud
 
@@ -92,7 +92,7 @@ Obtener una lista de los juegos más nuevos.
 
 - **URL:** `/api/newest`
 - **Método:** GET
-- **Parámetros:** `page` (entero, obligatorio) - Número de página para la paginación.
+- **Parámetros:** `page` (entero, requerido) - Número de página para la paginación.
 
 #### Ejemplo de solicitud
 
@@ -118,7 +118,7 @@ Obtener una lista de los juegos actualizados recientemente.
 
 - **URL:** `/api/recent-updated`
 - **Método:** GET
-- **Parámetros:** `page` (entero, obligatorio) - Número de página para la paginación.
+- **Parámetros:** `page` (entero, requerido) - Número de página para la paginación.
 
 #### Ejemplo de solicitud
 
