@@ -22,18 +22,17 @@ Obtener una lista de juegos sin anuncios.
 
  #### Respuesta
 
-``json
+```json
 {
-  "pagination": [
-    {
-      "currentPage": "1",
-      "totalPages": "20"
-    }
-  ],
-  "results": [
-    // Lista de objetos de juegos con detalles
-  ]
-}``
+    "pagination": [{
+        "currentPage": "1",
+        "totalPages": "20"
+    }],
+    "results": [
+        // Lista de objetos de juegos con detalles
+    ]
+}
+```
 
 ### 2\. details
 
@@ -49,14 +48,17 @@ Obtener detalles de un juego específico por su ID.
 
 #### Respuesta
 
-``json
-[
-  {
-    "title": "Zombies in city lights",
-    "developer": "Denny74",
-    "embed_url": "https://idev.games/embed/zombies-in-city-lights"
-  }
-]``
+```json
+{
+    "pagination": [{
+        "currentPage": "1",
+        "totalPages": "20"
+    }],
+    "results": [
+        // Lista de objetos de juegos con detalles
+    ]
+}
+```
 
 ### 3\. most-played
 
@@ -72,18 +74,17 @@ Obtener una lista de los juegos más jugados.
 
 #### Respuesta
 
-``json
+```json
 {
-  "pagination": [
-    {
-      "currentPage": "1",
-      "totalPages": "20"
-    }
-  ],
-  "results": [
-    // Lista de objetos de juegos con detalles
-  ]
-}``
+    "pagination": [{
+        "currentPage": "1",
+        "totalPages": "20"
+    }],
+    "results": [
+        // Lista de objetos de juegos con detalles
+    ]
+}
+```
 
 ### 4\. newest
 
@@ -99,18 +100,17 @@ Obtener una lista de los juegos más nuevos.
 
 #### Respuesta
 
-``json
+```json
 {
-  "pagination": [
-    {
-      "currentPage": "1",
-      "totalPages": "20"
-    }
-  ],
-  "results": [
-    // Lista de objetos de juegos con detalles
-  ]
-}``
+    "pagination": [{
+        "currentPage": "1",
+        "totalPages": "20"
+    }],
+    "results": [
+        // Lista de objetos de juegos con detalles
+    ]
+}
+```
 
 ### 5\. recent-updated
 
@@ -126,15 +126,14 @@ Obtener una lista de los juegos actualizados recientemente.
 
 #### Respuesta
 
-``json
+```json
 {
-  "pagination": [
-    {
-      "currentPage": "1",
-      "totalPages": "20"
-    }
-  ],
-  "results": [
-    // Lista de objetos de juegos con detalles
-  ]
-}``
+    "pagination": [{
+        "currentPage": "1",
+        "totalPages": "20"
+    }],
+    "results": [
+        // Lista de objetos de juegos con detalles
+    ]
+}
+```
